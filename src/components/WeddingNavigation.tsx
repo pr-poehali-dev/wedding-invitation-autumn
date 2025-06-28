@@ -13,6 +13,7 @@ const WeddingNavigation = ({
     { id: "hero", label: "Главная", icon: "💍" },
     { id: "info", label: "Информация", icon: "📍" },
     { id: "gallery", label: "Фотографии", icon: "📸" },
+    { id: "rsvp", label: "RSVP", icon: "💌" },
   ];
 
   return (

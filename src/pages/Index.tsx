@@ -3,6 +3,7 @@ import WeddingNavigation from "@/components/WeddingNavigation";
 import HeroSection from "@/components/HeroSection";
 import InfoSection from "@/components/InfoSection";
 import GallerySection from "@/components/GallerySection";
+import RSVPSection from "@/components/RSVPSection";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("hero");
@@ -15,6 +16,8 @@ const Index = () => {
         return <InfoSection />;
       case "gallery":
         return <GallerySection />;
+      case "rsvp":
+        return <RSVPSection />;
       default:
         return <HeroSection />;
     }
